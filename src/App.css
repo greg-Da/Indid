@@ -5,6 +5,11 @@
   background-color: rgb(15, 151, 255);
 }
 
-.test{
+.before{
   margin-top: 0%;
+}
+
+.after{
+  margin-top: 0%;
+  display: none;
 }
