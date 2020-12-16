@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { TimelineLite } from "gsap/all";
+import Button from "./downloadBtn";
 
 
 
@@ -68,7 +69,7 @@ function App() {
           </nav>
 
         <h1 className="title before">test</h1>
-        <a className="before" href="#" onClick={() => tlp.play()}>test</a>
+          <a className="before" href="#" onClick={() => tlp.play()}>test</a>
           <div className="after">
             <div id="title_section" className="container">
               <h4>Title - School section</h4>
