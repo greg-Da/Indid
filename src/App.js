@@ -24,7 +24,7 @@ function App() {
     
     tlp.to(".App", {
       duration: .9,
-      backgroundImage: 'url(https://media3.giphy.com/media/3oEdv4idg2DBlVCU6I/giphy.gif)', 
+      backgroundImage: 'url(https://cdn.discordapp.com/attachments/755800455506034728/788768540336586792/MOSHED-2020-12-16-15-3-51.gif)',
       opacity: 1 })
       
       .to(".App", 0.1,{
@@ -39,8 +39,7 @@ function App() {
       
       .to(".App",{
         duration: .5,
-        backgroundImage: 'none', 
-        backgroundColor: 'rgb(252, 88, 88)',
+        backgroundImage: 'url(https://cdn.discordapp.com/attachments/755800429102759988/783715777953923102/decor-ecole.jpg)',
         opacity: 1 },"+=1.5")
         
       .from(".after", {
@@ -55,14 +54,59 @@ function App() {
         
       }, []);
       
-      
-      
+
       return (
+
         <div className="App">
+          <nav>
+            <div className="nav-wrapper">
+              <a href="#" className="brand-logo center">Indid</a>
+              <ul id="nav-mobile" className="right hide-on-med-and-down">
+                <li><a className="waves-effect waves-light btn">Download</a></li>
+              </ul>
+            </div>
+          </nav>
+
         <h1 className="title before">test</h1>
         <a className="before" href="#" onClick={() => tlp.play()}>test</a>
-        <h1 className="after">Hello !</h1>
+          <div className="after">
+            <div id="title_section" className="container">
+              <h4>Title - School section</h4>
+            </div>
+
+            <div className="container">
+
+              <div className="row">
+
+                <div id="first_part" className="col">
+                  <div id="first_part_text">
+                    <h4>Text</h4>
+                  </div>
+
+                  <div id="first_part_img">
+                    <h4>Img</h4>
+                  </div>
+                </div>
+
+                <div id="second_part" className="col">
+                  <div className="second_col_text">
+                    <h4>Text</h4>
+                  </div>
+
+                  <div className="second_col_text">
+                    <h4>Text</h4>
+                  </div>
+
+                  <div className="second_col_text">
+                    <h4>Text</h4>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
+
         );
       }
       
