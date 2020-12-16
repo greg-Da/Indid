@@ -10,11 +10,12 @@
 }
 
 nav{
-  background-color: midnightblue;
+  background-color: rgb(103, 18, 13);
 }
 
-#nav_wrapper{
-  background-image: url("https://cdn.discordapp.com/attachments/755800455506034728/788775343552200744/indid.png");
+img{
+  height: 100%;
+  float: left;
 }
 
 body{

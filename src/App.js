@@ -4,9 +4,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { TimelineLite } from "gsap/all";
 
-
-
-
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
@@ -60,7 +57,7 @@ function App() {
         <div className="App">
           <nav>
             <div className="nav-wrapper">
-              <a href="#" className="brand-logo center">Indid</a>
+              <img src="https://cdn.discordapp.com/attachments/755800455506034728/788775593503358996/indid.png"/>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li><a className="waves-effect waves-light btn">Download</a></li>
               </ul>
