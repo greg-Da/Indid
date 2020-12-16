@@ -8,11 +8,6 @@
   margin-top: 0%;
 }
 
-nav{
-  background-color: white;
-  border: 4px solid rgb(103, 18, 13);
-}
-
 img{
   height: 100%;
   float: left;
@@ -22,6 +17,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: inherit;
+  overflow-y: hidden;
 }
 
 #title_section{
@@ -110,4 +106,80 @@ button{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+}
+
+section.section-psychology{
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.top-left-image-text-column, .top-right-image-text-column{
+  justify-content: space-around;
+}
+
+.top-left-image-text-row{
+
+  justify-content: space-around;
+
+}
+
+.left {
+  width: 50%;
+  height: 68vh;
+  justify-content: center;
+}
+
+.image-left, .text-left{
+  width: 40%;
+  height: 290px;
+  border: 1px solid;
+
+}
+
+div.text-left.card,div.text-right.card,div.text-bottom-left.card,article.tile.is-child.box{
+
+  background-color: #130100;
+  color: white;
+  border-radius: 16px;
+}
+
+p.title.text-center{
+  color: white;
+}
+
+.image-left img{
+  width: 100%;
+  height: 100%;
+}
+
+
+#second_right{
+  width: 50%;
+  align-items: center;
+  justify-content: space-around;
+
+
+}
+
+.image-right, .text-right {
+  width: 28rem;
+  border: 1px solid;
+}
+
+.image-right{
+  height: 190px ;
+
+
+}
+
+.text-right{
+  height: 290px;
+}
+
+div.image-right img{
+  width: 100%;
+  height: 100%;
 }
