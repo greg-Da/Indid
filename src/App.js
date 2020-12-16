@@ -5,9 +5,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { TimelineLite } from "gsap/all";
 import Button from "./downloadBtn";
 
-
-
-
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
@@ -61,15 +58,29 @@ function App() {
         <div className="App">
           <nav>
             <div className="nav-wrapper">
-              <a href="#" className="brand-logo center">Indid</a>
+              <img src="https://cdn.discordapp.com/attachments/755800455506034728/788775593503358996/indid.png"/>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li><a className="waves-effect waves-light btn">Download</a></li>
               </ul>
             </div>
           </nav>
-
-        <h1 className="title before">test</h1>
-          <a className="before" href="#" onClick={() => tlp.play()}>test</a>
+        <div className="before">
+          <div className="container" id="accueil_container">
+            <div className="row" id="accueil_row">
+              <div className="col-10">
+                <p>CatchPhrase</p>
+                <p>
+                  Incarnez Lilia, une jeune fille souffrant du trouble dissociatif de l'identité.
+                  Accompagnez-là au cours de la découverte de sa condition, et découvrez sa relation
+                  avec le mystérieux Fabrice.
+                </p>
+              </div>
+              <div className="col-2">
+                <button type="button" onClick={() => tlp.play()}>Move forward</button>
+              </div>
+            </div>
+          </div>
+        </div>
           <div className="after">
             <div id="title_section" className="container">
               <h4>Title - School section</h4>

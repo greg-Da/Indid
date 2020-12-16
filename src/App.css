@@ -2,7 +2,6 @@
   text-align: center;
   height: 100vh;
   background-size: cover;
-  background-color: rgb(15, 151, 255);
 }
 
 .before{
@@ -10,11 +9,13 @@
 }
 
 nav{
-  background-color: midnightblue;
+  background-color: white;
+  border: 4px solid rgb(103, 18, 13);
 }
 
-#nav_wrapper{
-  background-image: url("https://cdn.discordapp.com/attachments/755800455506034728/788775343552200744/indid.png");
+img{
+  height: 100%;
+  float: left;
 }
 
 body{
@@ -61,4 +62,35 @@ body{
   padding-top: 20px;
   border-radius: 20px;
   margin-top: 30px;
+}
+
+#accueil_container{
+  height: 100vh;
+  width: 100vh;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.col-11{
+  align-items: center;
+
+}
+p{
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+}
+
+button{
+  background-color: rgb(103, 18, 13);
+  border-radius: 20px;
+  width: 120px;
+  height: 50px;
+  color: white;
+}
+
+#accueil_row{
+  align-items: center;
+  padding-top: 280px;
 }
