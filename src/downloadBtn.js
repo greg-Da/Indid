@@ -94,7 +94,7 @@ const Button = (props) => {
     })
     return (
         <div className="buttonParent">
-            <a href="" className="button dark">
+            <btn href="" className="button dark">
                 <ul>
                     <li>&#68;ownload</li>
                     <li>&#68;ownloading</li>
@@ -103,7 +103,7 @@ const Button = (props) => {
                 <div>
                     <svg viewBox="0 0 24 24"></svg>
                 </div>
-            </a>
+            </btn>
         </div>
     )
 }
