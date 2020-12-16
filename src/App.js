@@ -60,7 +60,7 @@ function App() {
             <div className="nav-wrapper">
               <img src="https://cdn.discordapp.com/attachments/755800455506034728/788775593503358996/indid.png"/>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
-                <li><a className="waves-effect waves-light btn">Download</a></li>
+                <li> <Button/> </li>
               </ul>
             </div>
           </nav>
