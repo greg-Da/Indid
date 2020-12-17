@@ -46,7 +46,7 @@ const FirstPageComponent = () =>{
     return(
         <div className="first">
             <div className="container-b">
-                    <div className="row" id="accueil_row">
+                    <div className="row">
                         <div className="col-11">
                             <div className="columns">
                                 <div className="column is-full">

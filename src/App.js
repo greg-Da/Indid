@@ -123,7 +123,7 @@ function App() {
         <div className="App">
 
           <NavBar />
-          <FirstPageComponent />
+          <FirstPageComponent/>
 
           <div className="second">
             <div className="section-psychology">

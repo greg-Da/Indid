@@ -22,9 +22,13 @@
 .column .is-full{
     padding-left: 90px;
 }
-p{
-    font-size: medium;
+h1{
+    font-size: 80px;
     font-weight: bold;
+}
+p{
+    font-size: x-large;
+    font-weight: unset;
 }
 .col-1{
     padding-left: 80px;
