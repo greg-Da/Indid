@@ -6,6 +6,7 @@ import { TimelineLite } from "gsap/all";
 import Button from "./downloadBtn";
 import NavBar from "./navbarComponent";
 import FirstPageComponent from "./FirstPageComponent";
+import Psycho from "./psychoSectionComponent";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -125,52 +126,7 @@ function App() {
           <NavBar />
           <FirstPageComponent/>
 
-          <div className="second">
-            <div className="section-psychology">
-              <div className="container">
-                <div className="tile is-ancestor pt-5">
-                  <article className="tile is-child box mt-4 ">
-                    <p className="title text-center">Psychology Section</p>
-                  </article>
-                </div>
-                <div className="d-flex cards">
-                  <div className=" left d-flex">
-                    <div className=" top-left-image-text-column d-flex flex-column">
-                      <div className=" top-left-image-text-row d-flex">
-                        <div className="image-left">
-                          <img src="https://bulma.io/images/placeholders/480x480.png"/>
-                        </div>
-                        <div className="text-left card">
-                          <div className="card-body">
-                            <h5 className="card-title">Text</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="text-bottom-left card">
-                        <div className="card-body">
-                          <h5 className="card-title">Text</h5>
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="second_right" className=" right d-flex flex-column">
-                    <div className="text-right card">
-                      <div className="card-body">
-                        <h5 className="card-title">Text</h5>
-
-                      </div>
-                    </div>
-                    <div className="image-right bg-light">
-                      <img src="https://bulma.io/images/placeholders/480x480.png"/>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            <button type="button" onClick={() => second_button_forward.play()}>Move forward</button>
-          </div>
+          <Psycho/>
 
           <div className="third">
             <div id="title_section" className="container">
