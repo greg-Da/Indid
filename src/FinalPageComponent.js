@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from "./downloadBtnComponent";
+import style from "./finalPage.css"
 
 const FinalComponent = (props) => {
     return (
