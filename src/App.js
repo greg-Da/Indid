@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { TimelineLite } from "gsap/all";
 import Button from "./downloadBtn";
 import NavBar from "./navbarComponent";
+import FirstPageComponent from "./FirstPageComponent";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -122,24 +123,7 @@ function App() {
         <div className="App">
 
           <NavBar />
-
-        <div className="first">
-          <div className="container" id="accueil_container">
-            <div className="row" id="accueil_row">
-              <div className="col-10">
-                <p>CatchPhrase</p>
-                <p>
-                  Incarnez Lilia, une jeune fille souffrant du trouble dissociatif de l'identité.
-                  Accompagnez-là au cours de la découverte de sa condition, et découvrez sa relation
-                  avec le mystérieux Fabrice.
-                </p>
-              </div>
-              <div className="col-2">
-                <button type="button" onClick={() => first_button_forward.play()}>Move forward</button>
-              </div>
-            </div>
-          </div>
-        </div>
+          <FirstPageComponent />
 
           <div className="second">
             <div className="section-psychology">

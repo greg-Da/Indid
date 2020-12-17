@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+}
+.container-b{
+    height: 400vh;
+}
+.columns{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-top: 190px;
+}
+.column .is-full, .column .is-6, .title{
+    margin-bottom: 50px;
+}
+.column .is-full{
+    padding-left: 90px;
+}
+p{
+    font-size: medium;
+    font-weight: bold;
+}
+.col-1{
+    padding-left: 80px;
+}
+button{
+    background-color: rgb(103, 18, 13);
+    border-radius: 20px;
+    width: 120px;
+    height: 50px;
+    color: white;
+}
+
