@@ -34,7 +34,7 @@ const SchoolComponent = () =>{
             })
 
             .to(".final", {
-                display: "block"
+                display: "flex"
             }, 0)
 
     }, []);
