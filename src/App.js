@@ -7,6 +7,7 @@ import Button from "./downloadBtn";
 import NavBar from "./navbarComponent";
 import FirstPageComponent from "./FirstPageComponent";
 import Psycho from "./psychoSectionComponent";
+import SchoolComponent from "./SchoolComponent";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -126,37 +127,7 @@ function App() {
           <NavBar />
           <FirstPageComponent/>
           <Psycho/>
-
-
-          <div className="third">
-            <div id="title_section" className="container">
-              <h4>Title - School section</h4>
-            </div>
-            <div className="container">
-              <div className="row">
-                <div id="first_part" className="col">
-                  <div id="first_part_text">
-                    <h4>Text</h4>
-                  </div>
-                  <div id="first_part_img">
-                    <h4>Img</h4>
-                  </div>
-                </div>
-                <div id="second_part" className="col">
-                  <div className="second_col_text">
-                    <h4>Text</h4>
-                  </div>
-                  <div className="second_col_text">
-                    <h4>Text</h4>
-                  </div>
-                  <div className="second_col_text">
-                    <h4>Text</h4>
-                  </div>
-                </div>
-              </div>
-              <button type="button" onClick={() => third_button_forward.play()}>Move forward</button>
-            </div>
-          </div>
+          <SchoolComponent/>
           <div className="final">
             <div className="explanations">
               <div><p>Download the zip file</p></div>
