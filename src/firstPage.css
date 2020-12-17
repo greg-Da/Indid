@@ -9,21 +9,25 @@
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: flex-end;
+    margin-left: 180px;
+    padding-top: 180px;
 }
 .row{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    padding-top: 190px;
 }
 .column .is-full, .column .is-6, .title{
     margin-bottom: 50px;
 }
 .column .is-full{
     padding-left: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
 h1{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: bold;
 }
 p{
@@ -39,5 +43,7 @@ button{
     width: 120px;
     height: 50px;
     color: white;
+    margin-bottom: 90px;
+    margin-left: 30px;
 }
 
