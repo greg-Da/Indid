@@ -5,11 +5,10 @@
     height: 400vh;
 }
 .columns{
-    display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: flex-end;
-    margin-left: 180px;
+    margin-left: 170px;
     padding-top: 180px;
 }
 .row{
@@ -34,9 +33,7 @@ p{
     font-size: x-large;
     font-weight: unset;
 }
-.col-1{
-    padding-left: 80px;
-}
+
 button{
     background-color: rgb(103, 18, 13);
     border-radius: 20px;
@@ -44,6 +41,5 @@ button{
     height: 50px;
     color: white;
     margin-bottom: 90px;
-    margin-left: 30px;
 }
 
