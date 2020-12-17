@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import Button from "./downloadBtn";
+import Button from "./downloadBtnComponent";
 import style from "./navBar.css";
 
 const NavBar = (props) => {

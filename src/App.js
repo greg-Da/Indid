@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { TimelineLite } from "gsap/all";
-import Button from "./downloadBtn";
+import Button from "./downloadBtnComponent";
 import NavBar from "./navbarComponent";
 import FirstPageComponent from "./FirstPageComponent";
 import Psycho from "./psychoSectionComponent";
