@@ -128,7 +128,6 @@ function App() {
           <Psycho/>
 
 
-
           <div className="third">
             <div id="title_section" className="container">
               <h4>Title - School section</h4>
