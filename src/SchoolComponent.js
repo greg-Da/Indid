@@ -9,7 +9,7 @@ const SchoolComponent = () =>{
     useEffect(() => {
         third_button_forward.to(".App", {
             duration: .9,
-            backgroundImage: 'url(https://cdn.discordapp.com/attachments/755800455506034728/788768539363508244/MOSHED-2020-12-16-15-4-11.gif)',
+            backgroundImage: 'url(https://cdn.discordapp.com/attachments/755800455506034728/789140885127299132/MOSHED-2020-12-17-15-43-55.gif)',
             opacity: 1 })
 
             .to(".App", 0.1,{
@@ -24,7 +24,7 @@ const SchoolComponent = () =>{
 
             .to(".App",{
                 duration: .5,
-                backgroundImage: 'url(https://cdn.discordapp.com/attachments/755800429102759988/783715777953923102/decor-ecole.jpg)',
+                backgroundImage: 'url(https://cdn.discordapp.com/attachments/755800455506034728/789131078367051826/unknown.png)',
                 opacity: 1 },"+=1.5")
 
             .from(".final", {
