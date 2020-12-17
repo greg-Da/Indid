@@ -46,7 +46,7 @@ const Psycho = (props) =>{
                 <div className="container">
                     <div className="tile is-ancestor">
                         <article className="tile is-child box mt-4 ">
-                            <p className="title text-center">Psychology Section vvhuujjjj</p>
+                            <p className="title text-center">Psychology Section</p>
                         </article>
                     </div>
                     <div className="d-flex cards">
