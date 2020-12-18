@@ -94,7 +94,7 @@ const Button = (props) => {
     })
     return (
         <div className="buttonParent">
-            <a href="./InDID%20Build.zip" download="./InDID%20Build.zip">
+            <a href="https://drive.google.com/file/d/1HWxsDIvmh466iIM-A9-QvvkqhG-boG4t/view?usp=sharing">
             <btn href="" className="button dark">
                 <ul>
                     <li>&#68;ownload</li>
