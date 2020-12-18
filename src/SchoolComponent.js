@@ -64,10 +64,10 @@ const SchoolComponent = () =>{
                                 a better understanding of identity dissociation</h4>
                         </div>
                         <div className="second_col_text">
-                            <h4>Text</h4>
+                            <h4>Try to understand your journey in your school with the help of your psychologist</h4>
                         </div>
                         <div className="second_col_text">
-                            <h4>Text</h4>
+                            <h4>Download and play the game help Lilia in her day</h4>
                         </div>
                     </div>
                 </div>
