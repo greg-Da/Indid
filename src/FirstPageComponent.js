@@ -61,14 +61,14 @@ const FirstPageComponent = () =>{
                             <div className="columns">
                                 <div className="column is-full">
                                     <div className="column is-6">
-                                        <h1 className="title">Laissez vous Guider</h1>
+                                        <h1 className="title">Let us guide You</h1>
                                     </div>
                                     <div className="column is-6">
                                         <p>
-                                            Incarnez Lilia, une jeune fille souffrant du trouble dissociatif de l'identité.
+                                            You play as Lilia, a young girl suffering with Dissociative Identity Disorder.
                                             <br />
-                                            Accompagnez-là au cours de la découverte de sa condition, et découvrez sa relation
-                                            avec le mystérieux Fabrice.
+                                            Follow her in the course of discovery of her condition,
+                                            and learn more about her relation with a mysterious Fabrice.
                                         </p>
                                     </div>
                                 </div>
