@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import style from "./button.scss";
 import { gsap, Elastic } from "gsap";
+import zip from "./inDID-Build-Team2.7z"
 
 const Button = (props) => {
 
@@ -32,7 +33,6 @@ const Button = (props) => {
 
             button.addEventListener('click', e => {
 
-                e.preventDefault();
 
                 if(!button.classList.contains('loading')) {
 
@@ -94,6 +94,7 @@ const Button = (props) => {
     })
     return (
         <div className="buttonParent">
+            <a  href="inDID-Build-Team2.7z" download={zip}>
             <btn href="" className="button dark">
                 <ul>
                     <li>&#68;ownload</li>
@@ -104,6 +105,7 @@ const Button = (props) => {
                     <svg viewBox="0 0 24 24"></svg>
                 </div>
             </btn>
+            </a>
         </div>
     )
 }
