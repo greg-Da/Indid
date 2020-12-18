@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { TimelineLite } from "gsap/all";
 import './firstPage.css'
+import video from './video/trailer.mp4'
 
 
 const FirstPageComponent = () =>{
@@ -26,6 +27,10 @@ const FirstPageComponent = () =>{
                 display: "none"
             }, 0)
 
+            .to("#naviga", {
+                position: "relative"
+            }, 0)
+
             .to(".App",{
                 duration: .5,
                 backgroundImage: 'url(https://cdn.discordapp.com/attachments/717354031370076190/788787532853805056/decor-salle-de-psy.jpg)',
@@ -45,7 +50,12 @@ const FirstPageComponent = () =>{
 
     return(
         <div className="first">
-            <div className="container-b">
+            <div id="video">
+                <video autoPlay loop muted >
+                    <source src={video} type='video/mp4'/>
+                </video>
+            </div>
+            <div className="container-b" id="intro">
                     <div className="row" id="container-row" >
                         <div className="col-11">
                             <div className="columns">

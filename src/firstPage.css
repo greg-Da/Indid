@@ -43,3 +43,14 @@ button{
     margin-bottom: 90px;
 }
 
+#intro{
+    position: absolute;
+    z-index: 999;
+    color: white;
+}
+
+#video{
+    position: absolute;
+    top: -110px;
+    opacity: 0.8;
+}
