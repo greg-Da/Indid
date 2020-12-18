@@ -43,27 +43,31 @@ const SchoolComponent = () =>{
 
         <div className="third">
             <div id="title_section" className="container">
-                <h4>Title - School section</h4>
+                <h4>The Game</h4>
             </div>
             <div className="container">
                 <div className="row">
                     <div id="first_part" className="col">
                         <div id="first_part_text">
-                            <h4>Text</h4>
+                            <h4>You play Lilia</h4>
+                            <br />
+                             <h4>A young girl suffering from dissociative identity,
+                                 Who wants to clear up her problems</h4>
                         </div>
                         <div id="first_part_img">
-                            <h4>Img</h4>
+
                         </div>
                     </div>
                     <div id="second_part" className="col">
                         <div className="second_col_text">
-                            <h4>Text</h4>
+                            <h4>An experience that will provide better informations and
+                                a better understanding of identity dissociation</h4>
                         </div>
                         <div className="second_col_text">
-                            <h4>Text</h4>
+                            <h4>Try to understand your journey in your school with the help of your psychologist</h4>
                         </div>
                         <div className="second_col_text">
-                            <h4>Text</h4>
+                            <h4>Download and play the game help Lilia in her day</h4>
                         </div>
                     </div>
                 </div>

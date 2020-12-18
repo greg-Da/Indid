@@ -52,13 +52,14 @@ body{
 }
 
 #first_part_img{
-  background-color: white;
-  color: black;
-  text-align: center;
+  background-image: url("https://media.discordapp.net/attachments/755800455506034728/789531968915898378/ad.png?width=381&height=539");
   height: 190px;
   padding-top: 20px;
   border-radius: 20px;
   margin-top: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;;
 }
 
 
