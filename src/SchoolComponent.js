@@ -51,7 +51,7 @@ const SchoolComponent = () =>{
                         <div id="first_part_text">
                             <h4>You play Lilia</h4>
                             <br />
-                             <h4>A young girl suffering from dissociative identity,
+                             <h4>A young girl suffering from dissociative identity disorder,
                                  Who wants to clear up her problems</h4>
                         </div>
                         <div id="first_part_img">
@@ -61,7 +61,7 @@ const SchoolComponent = () =>{
                     <div id="second_part" className="col">
                         <div className="second_col_text">
                             <h4>An experience that will provide better informations and
-                                a better understanding of identity dissociation</h4>
+                                a better understanding the dissociative identity disorder</h4>
                         </div>
                         <div className="second_col_text">
                             <h4>Try to understand your journey in your school with the help of your psychologist</h4>
