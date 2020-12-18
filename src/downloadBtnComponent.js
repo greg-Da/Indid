@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import style from "./button.scss";
 import { gsap, Elastic } from "gsap";
-import zip from "./inDID-Build-Team2.7z"
+import zip from "./InDID Build.zip"
 
 const Button = (props) => {
 
@@ -94,7 +94,7 @@ const Button = (props) => {
     })
     return (
         <div className="buttonParent">
-            <a  href="inDID-Build-Team2.7z" download={zip}>
+            <a href="./InDID%20Build.zip" download="./InDID%20Build.zip">
             <btn href="" className="button dark">
                 <ul>
                     <li>&#68;ownload</li>
